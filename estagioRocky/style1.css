@@ -1,0 +1,64 @@
+        .titulos
+        {
+            font-family: 'IBM Plex Sans', sans-serif;
+            color: #8C0303;
+        }
+
+        body{
+            background-image: url(imagens/vaderBackground.jpg);
+            background-size: contain, cover;
+        }
+        header{
+            text-align: center;
+        }
+        footer{
+            color: white;
+            text-decoration: underline;
+            text-align: end;
+        }
+        ul li{
+            display: inline;
+            margin-right: 100px;
+        }
+        aside{
+            float: right;
+        }
+nav a{
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #8C0303 solid;
+}
+nav a:hover{
+    color: blue;
+    background-color: red;
+}
+nav a:active{
+    color: purple;
+    background-color: yellow;
+}
+article{
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 1px #8C0303 solid;
+    margin: 100px 800px 100px 0px;
+    background-color: #0c0c0ccb;
+}
+div
+{
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 1px #8C0303 solid;
+    margin: 150px 0 0 0;
+}
+summary
+{
+    color: white;
+}
+p{
+    color: white;
+}
+button{
+    float: right;
+}
